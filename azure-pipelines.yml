@@ -17,3 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- script: |
+    echo This task was added after initial commit and shows that changes in yaml are also propagated to GitHub!
+  displayName: 'Run a another one'
